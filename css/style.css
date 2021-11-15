@@ -253,10 +253,10 @@ button{
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    position: relative !important;
+    position: relative 
     line-height: inherit;
-    right: -820px !important;
-    top: -63px !important;
+    right: -820px;
+    top: -63px ;
 }
 .btn-secondary {
     color: #fff;
