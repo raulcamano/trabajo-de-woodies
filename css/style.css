@@ -1,0 +1,31 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    min-height: 800px;
+    margin-bottom: 120px;
+}
+.header-table{
+    width: 630px;
+    height: 800px;
+    background: url(../img/header-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+.header-container{
+    height: 540px;
+    display: flex;
+    align-items: center;
+}
+.nav-link.active{
+    color: #DAA520 !important;
+}
+.funiture-text-center{
+    align-items: center;
+
+}
