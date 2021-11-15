@@ -29,7 +29,66 @@ body{
     align-items: center;
 
 }
-
+.funiture{
+    min-height: 415px;
+}
+.funiture h3{
+    color: #3E3F43;
+    font-size: 2.25rem;
+}
+.funiture p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.header-with-logo{
+    background: url(../img/logito1.png);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    padding-left: 60px;
+}
+.cucharas{
+    background: url(../img/cucharas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 17%;
+    position: absolute;
+    right: 16px;
+    top: -15px;
+}
+.text-gray-opacity{
+    color: rgba(34,34,34, 0.1);
+}
+@media (max-width: 576px){
+    .header-table{
+        position: initial;
+        width: 100%;
+        min-height: 470px;
+        height: auto;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+@media (min-width: 786px) and (max-width: 991.98px) {   
+}
+.font1 {
+    font-size: 2.25rem;
+}
+.logo3{
+    min-height: 415px;
+    text-align: center;
+    width: 91%;
+    height: 0%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: -55px;
+}
 
 .with-logo3{
     background: url(../img/logito1.png);
@@ -151,18 +210,7 @@ body{
     font-size: 0.7rem;
     margin-top: 80px;
 }
-button, input, optgroup, select, textarea {
-    margin: -80px;
-    font-family: inherit;
-    font-size: inherit;
-    position: absolute;
-    line-height: inherit;
-    right: 110px;
-    height: 45px;
-    width: 300px;
-}
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    cursor: pointer;
+.boton9{
     position: absolute;
     right: -30px;
     height: 45px;
@@ -191,3 +239,53 @@ position: relative;
 bottom: 174px;
 right: -40px;
 }
+button{
+    margin: -80px;
+    font-family: inherit;
+    font-size: inherit;
+    position: inherit;
+    line-height: inherit;
+    right: 110px;
+    height: 45px;
+    width: 300px;
+}
+.input{ 
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative !important;
+    line-height: inherit;
+    right: -820px !important;
+    top: -63px !important;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    position: relative; 
+    top: -5px  ;
+    border-color: #6c757d;
+    right: -100px;
+    width: 100px;
+}
+.imagen{
+    background: url(../img/logotipo-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 18%;
+    position: absolute;
+    right: 850px;
+    top: 1366px; 
+}
+
+.mesa {
+    height:665px;
+    background: url("../img/mesa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+   width: 29%;
+   position: absolute;
+           right: -92px;
+        top: 1312px;
+  }
